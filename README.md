@@ -137,9 +137,9 @@ Base path: /api/salaries. Replace employeeEmail and baseCurrency as needed.
 
 ## Testing
 * Call Your API with the Token via Postman: 
-		* Method: GET / POST (As per API)
-		* URL: http://localhost:8080/api.. (As per API)
-		* Headers:  → Authorization  → Bearer <ID_TOKEN>
+	* Method: GET / POST (As per API)
+	* URL: http://localhost:8080/api.. (As per API)
+	* Headers:  → Authorization  → Bearer <ID_TOKEN>
 		
 * Swagger Json is attached in the /personal-salary-tracker/src/test/resources/WalkingTree.postman_collection.json
    
