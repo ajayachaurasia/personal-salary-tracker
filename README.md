@@ -42,7 +42,7 @@ Edit src/main/resources/application.yml for DB, OAuth and other settings.
 
 - Google OAuth (replace client-id, client-secret with your credentials):
    
-     security:
+   security:
     oauth2:
       client:
         registration:
