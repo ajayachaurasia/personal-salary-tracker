@@ -1,0 +1,21 @@
+# Java Builds
+target/
+build/
+bin/
+.gradle/
+.classpath
+
+# WebUI Builds
+tmp/
+
+# WebUI dependencies
+node_modules/
+bower_components/
+
+# IDEs and editors
+**/.idea
+**/*.iml
+**/.vscode
+.settings/
+
+**/Thumbs.db
