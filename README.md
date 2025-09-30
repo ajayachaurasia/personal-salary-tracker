@@ -42,24 +42,6 @@ Edit src/main/resources/application.yml for DB, OAuth and other settings.
 
 - Google OAuth (replace client-id, client-secret with your credentials):
    
-   security:
-    oauth2:
-      client:
-        registration:
-          google:
-            client-id: 
-            client-secret: 
-            scope:
-              - openid
-              - profile
-              - email
-        provider:
-          google:
-            issuer-uri: https://accounts.google.com
-      resourceserver: 
-        jwt: 
-          issuer-uri: https://accounts.google.com
-   
 - Google Console Redirect URIs to add:
 
 	http://localhost:8080/login/oauth2/code/google
