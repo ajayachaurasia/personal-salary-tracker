@@ -32,7 +32,6 @@ Spring Boot backend to manage personal salary history across financial years, co
 1. Clone repository and open project root (contains `pom.xml`).
 
 2. Build (skip tests for speed):  
-   ```bash
    mvn clean package -DskipTests
    
 ---
@@ -41,7 +40,7 @@ Spring Boot backend to manage personal salary history across financial years, co
 
 Edit src/main/resources/application.yml for DB, OAuth and other settings.
 
-- Google OAuth (replace placeholders with your credentials):
+- Google OAuth (replace client-id, client-secret with your credentials):
    
      security:
     oauth2:
@@ -160,7 +159,7 @@ Base path: /api/salaries. Replace employeeEmail and baseCurrency as needed.
 		* URL: http://localhost:8080/api.. (As per API)
 		* Headers:  → Authorization  → Bearer <ID_TOKEN>
 		
-* Swagger Json is attached in the /personal-salary-tracker/src/test/resources/
+* Swagger Json is attached in the /personal-salary-tracker/src/test/resources/WalkingTree.postman_collection.json
    
 ---
 
